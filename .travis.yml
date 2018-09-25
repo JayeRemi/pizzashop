@@ -8,3 +8,4 @@ deploy:
   app: pizzashop5
   on:
     repo: JayeRemi/pizzashop
+  run: "rake db:migrate"
